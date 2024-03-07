@@ -1,7 +1,9 @@
 #projects {
   background: url("/src/assets/background.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: auto;
+  background-attachment: fixed;
+
   color: $dark-blue-text;
 
   @include respond(tab-land) {
